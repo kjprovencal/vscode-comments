@@ -1,4 +1,4 @@
-# kyle-keybindings README
+# vscode-comments README
 
 Simple vscode extension for conditionally commenting blocks or lines of code. 
 Start a comment using `cmd+/`. 

@@ -1,8 +1,12 @@
 {
-  "name": "kyle-keybindings",
-  "displayName": "Kyle's Keybindings",
+  "name": "vscode-comments",
+  "displayName": "VS Code Comments",
   "description": "",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjprovencal/vscode-comments.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -17,7 +21,7 @@
     "keybindings": [
       {
         "key": "cmd+/",
-        "command": "kyle-keybindings.startComment",
+        "command": "vscode-comments.startComment",
         "when": "editorTextFocus && !editorReadonly"
       }
     ]
